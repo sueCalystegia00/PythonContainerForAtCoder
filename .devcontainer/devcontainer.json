@@ -1,0 +1,18 @@
+{
+	"name": "AtcoderWorkspace",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "atcoder",
+	"workspaceFolder": "/code",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.tabSize": 2
+			},
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"PKief.material-icon-theme"
+			]
+		}
+	},
+}
